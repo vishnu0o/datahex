@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
+
+p {
+    font-family: Inter;
+    font-weight: 300;
+}
+.inter {
+    font-family: Inter;
+    font-weight: 300; 
+}
+
+.image {
+    background-image: url(./public/image2.png);
+    max-width: 100%;
+    max-height: 100%;
+    width: 610px;
+    height: 650px;
+    top: 0;
+    right: 10%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+@media (max-width:768px) {
+    .register-image{
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        position: absolute;
+        /* top: -110px;
+        left: 0; */
+        width: 200px !important;
+        height: 200px !important;
+        background-image: url(./public/image3.png);
+    }
+}
+.register-image{
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    /* top: -110px;
+    left: 0; */
+    width: 400px;
+    height: 300px;
+    background-image: url(./public/image3.png);
+}
